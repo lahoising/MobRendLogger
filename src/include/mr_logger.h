@@ -1,7 +1,7 @@
 #ifndef _MR_LOGGER_H_
 #define _MR_LOGGER_H_
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 #include <cstdlib>
 extern "C"
 {
@@ -46,7 +46,7 @@ else\
     abort();\
 }
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 }
 #endif
 

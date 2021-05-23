@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "mr_logger.h"
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 #include <cstring>
 extern "C"
 {
@@ -64,6 +64,6 @@ void mr_log_filter_output(MobRendLogBitMask mask, char logAction)
 }
 
 
-#ifdef _cplusplus
+#ifdef __cplusplus
 }
 #endif
