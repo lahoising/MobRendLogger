@@ -5,7 +5,7 @@ set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(INC_DIR "${SRC_DIR}/include")
 
 add_library(
-    mr_logger STATIC
+    mr_logger 
     "${SRC_DIR}/mr_logger.c"
     "${INC_DIR}/mr_logger.h"
 )
