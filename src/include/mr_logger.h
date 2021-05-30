@@ -35,14 +35,14 @@ typedef char MobRendLogBitMask;
 void _mr_log(const char *f, int l, const char *colorStart, const char *colorEnd,char priority,const char *msg,...);
 void mr_log_filter_output(MobRendLogBitMask mask, char logAction);
 
-#define BAKA_ASSERT(expr)\
+#define MR_ASSERT(expr)\
 if((expr))\
 {\
 \
 }\
 else\
 {\
-    bakaerr("%s returned false",#expr);\
+    mrerr("%s returned false",#expr);\
     abort();\
 }
 
