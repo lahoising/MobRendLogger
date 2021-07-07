@@ -11,6 +11,8 @@ extern "C"
 
 #if defined(_WIN32)
 #define MR_FILE_SEPARATOR '\\'
+#elif defined(linux)
+#define MR_FILE_SEPARATOR '/'
 #endif
 
 typedef struct
